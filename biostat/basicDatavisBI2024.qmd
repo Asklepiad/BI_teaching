@@ -11,6 +11,11 @@ editor: visual
 
 ```{r setup}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, error = FALSE, fig.width=20, fig.height=14)
+# install.packages("ggExtra")
+# install.packages("ggpubr")
+# install.packages("ggridges")
+# install.packages("rstatix")
+# install.packages("geomtextpath")
 library(tidyverse)
 library(ggExtra)
 library(ggridges)
@@ -331,6 +336,10 @@ histCustom <- function(df, variable, n){
 ```
 
 ```{r gsu}
+
+```
+
+```{r rstat}
 
 ```
 
