@@ -58,12 +58,6 @@ x = "Количество очков",
 fill = "Колледж",
 caption = "Источник: нездоровая фантазия автора лекции"
    )+
-# stat_summary(fun.y=mean, # Дать на вход другие данные
-#              geom="point",
-#              shape=21,
-#              size=10,
-#              color="grey70",
-#              fill="#7D5535")+
 facet_grid(. ~ sex,
            labeller = labeller(sex = gridLab))+
 theme_bw()+
